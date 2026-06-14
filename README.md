@@ -83,10 +83,15 @@ Input (784) ---> Hidden Layer 1 (128) ---> Hidden Layer 2 (64) ---> Output (10)
 ```
 mnist-neural-network/
 │
-├── imports.py      # numpy and sklearn imports
-├── data.py         # load, normalize, one-hot encode, train/test split
-├── network.py      # all neural network functions
-└── main.py         # hyperparameters, training loop, evaluation
+├── src/
+│   ├── imports.py
+│   ├── data.py
+│   ├── model.py    
+│   └── main.py
+│
+├── .gitignore
+├── LICENSE
+└── README.md
 ```
 
 ### File Responsibilities
