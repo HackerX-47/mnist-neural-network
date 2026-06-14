@@ -1,0 +1,61 @@
+# ==========================================
+# Python / NumPy Neural Network .gitignore
+# ==========================================
+
+# 1. Byte-compiled / Optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+
+# 2. Virtual Environments
+# (You don't want to commit 500MB of pip packages)
+venv/
+.venv/
+env/
+.env_python/
+pip-log.txt
+pip-delete-this-directory.txt
+
+# 3. Data and Datasets
+# (Never commit large raw data like MNIST csv files)
+data/
+datasets/
+*.csv
+*.tsv
+*.dat
+*.npy
+*.npz
+
+# 4. Model Saves and Checkpoints
+# (If you save your trained NumPy weights/biases)
+*.pkl
+*.pickle
+*.h5
+*.hdf5
+models/
+checkpoints/
+saved_weights/
+
+# 5. Jupyter Notebooks (if you use them for testing)
+# (Ignores the autosaves, but keeps the actual .ipynb files)
+.ipynb_checkpoints/
+
+# 6. IDEs and Editors
+# (Personal editor settings shouldn't be shared)
+.vscode/
+.idea/
+*.swp
+*.swo
+.DS_Store
+Thumbs.db
+
+# 7. Testing and Coverage
+.pytest_cache/
+.coverage
+htmlcov/
+
+# 8. Environment Variables
+# (Keep your API keys or local paths secret)
+.env
+.env.local
