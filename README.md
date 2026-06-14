@@ -33,8 +33,8 @@ Input (784) ---> Hidden Layer 1 (128) ---> Hidden Layer 2 (64) ---> Output (10)
 
 | Metric | Value |
 |---|---|
-| Training Accuracy | 99.95% |
-| Test Accuracy | 97.97% |
+| Training Accuracy | 99.74% |
+| Test Accuracy | 98.28% |
 | Epochs | 100 |
 | Batch Size | 100 |
 | Optimizer | Adam |
