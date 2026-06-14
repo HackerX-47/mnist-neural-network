@@ -15,8 +15,8 @@ Most people learn neural networks by calling `model.fit()`. This project does th
 ## Architecture
 
 ```
-Input (784) --> Hidden Layer 1 (128) --> Hidden Layer 2 (64) --> Output (10)
-                     ReLU                      ReLU                Softmax
+Input (784) ---> Hidden Layer 1 (128) ---> Hidden Layer 2 (64) ---> Output (10)
+            ReLU                      ReLU                   Softmax
 ```
 
 | Layer | Neurons | Activation | Parameters |
