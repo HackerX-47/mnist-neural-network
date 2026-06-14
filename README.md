@@ -218,5 +218,4 @@ No deep learning frameworks. No automatic differentiation. Just math.
 
 ## Author
 
-**HackerX-47**
-https://github.com/HackerX-47
+[HackerX-47](https://github.com/HackerX-47)
