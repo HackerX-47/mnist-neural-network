@@ -1,4 +1,4 @@
-from src.imports import *
+from imports import *
 
 def load_data(): 
     print("Loading MNIST dataset...")
