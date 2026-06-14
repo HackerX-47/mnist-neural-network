@@ -2,7 +2,7 @@
 
 A fully functional neural network built **from scratch using only NumPy**, trained on the MNIST handwritten digit dataset. No PyTorch. No TensorFlow. No autograd. Every single forward pass, backpropagation step, and weight update is implemented manually.
 
-**Final Test Accuracy : 97.97% on 10,000 unseen images.**
+**Final Test Accuracy : 98.28% on 10,000 unseen images.**
 
 ---
 
